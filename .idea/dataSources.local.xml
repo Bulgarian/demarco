@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Demarco" uuid="df0f490b-13b1-4d1e-9f43-b9d81f561638">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>demarco.*</schema-pattern>
+      <default-schemas>demarco.*</default-schemas>
+    </data-source>
+    <data-source name="Sqlite (Xerial) - blog.sqlite" uuid="a145f3cc-111c-4577-bd5f-3c8c9010021c">
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>

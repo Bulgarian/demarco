@@ -1,0 +1,31 @@
+demarco_homepage:
+    path:     /
+    defaults: { _controller: AppBundle:Showcase:index }
+
+demarco_aboutus:
+    path:     /aboutus
+    defaults: { _controller: AppBundle:Showcase:aboutus }
+
+demarco_gallery:
+    path:     /gallery
+    defaults: { _controller: AppBundle:Showcase:gallery }
+
+demarco_gallery:
+    path:     /gallery/{furniture}
+    defaults: { _controller: AppBundle:Showcase:gallery }
+
+demarco_projects:
+    path:     /projects
+    defaults: { _controller: AppBundle:Showcase:projects }
+
+demarco_contacts:
+    path:     /contacts
+    defaults: { _controller: AppBundle:Showcase:contacts }
+
+demarco_admin:
+    path:     /login
+    defaults: { _controller: AppBundle:Security:login }
+
+demarco_login_check:
+    path:     /logincheck
+    defaults: { _controller: AppBundle:Security:login }

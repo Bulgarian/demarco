@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block menu %}
+    <ul class="sf-menu">
+        <li>
+            <a href="/">Главная</a>
+        </li>
+        <li class="active">
+            <a href="aboutus">О нас</a>
+        </li>
+        <li>
+            <a href="gallery">Галерея</a>
+            <ul>
+                <li>
+                    <a href="gallery/kitchen">Кухни</a>
+                </li>
+                <li>
+                    <a href="gallery/living_rooms">Гостинные</a>
+                </li>
+                <li>
+                    <a href="gallery/bedrooms">Спальни</a>
+                </li>
+                <li>
+                    <a href="gallery/nursery">Детские</a>
+                </li>
+                <li>
+                    <a href="gallery/wardrobes">Шкафы / Гардеробы</a>
+                </li>
+                <li>
+                    <a href="gallery/bathrooms">Мебель для ванной</a>
+                </li>
+                <li>
+                    <a href="gallery/other">Другое</a>
+                </li>
+                <li>
+                    <a href="gallery/doors">Двери</a>
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <a href="projects">Проекты</a>
+        </li>
+        <li>
+            <a href="contacts">Контакты</a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    {{ posts.content|raw }}
+{% endblock %}
+
+{% block footer_menu %}
+    <ul class="footer_menu">
+        <li>
+            <a href="/">Главная</a>
+        </li>
+        <li class="active">
+            <a href="aboutus">О нас</a>
+        </li>
+        <li>
+            <a href="gallery">Галерея</a>
+        </li>
+        <li>
+            <a href="projects">Проекты</a>
+        </li>
+        <li>
+            <a href="contacts">Контакты</a>
+        </li>
+    </ul>
+{% endblock %}
+

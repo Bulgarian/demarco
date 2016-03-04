@@ -1,0 +1,4 @@
+services:
+#    demarco_showcase.example:
+#        class: Demarco\AppBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
